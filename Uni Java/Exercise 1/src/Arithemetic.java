@@ -5,30 +5,39 @@ public class Arithemetic {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		
-		int num1;
-		int num2;
+		float num1;
+		float num2;
 		
 		System.out.print("Enter first integer");
-		num1 = input.nextInt();
+		num1 = input.nextFloat();
 				
 		System.out.print("Enter second integer");
-		num2 = input.nextInt();	
+		num2 = input.nextFloat();	
 		
-		int sum;
+		float sum;
 		sum = num1 + num2;
-	    System.out.printf("Sum = %d\n", sum);
+	    System.out.printf("Sum = %f\n", sum);
 	    
-		int difference;
-		difference = num1 - num2;
-	    System.out.printf("Difference = %d\n", difference);
+		float difference;
+		if (num1>num2){
+			difference = num1 - num2;}
+		else {
+			difference = num2-num1;
+			}
+	    System.out.printf("Difference = %f\n", difference);
 	    
-		int product;
+		float product;
 		product = num1 * num2;
-	    System.out.printf("Product = %d\n", product);
+	    System.out.printf("Product = %f\n", product);
 	    
-		int quotient;
-		quotient = num1 / num2;
-	    System.out.printf("Quotient = %d\n", quotient);
+		float quotient;
+		if(num1 != 0) {
+			quotient = num1 / num2;
+		    System.out.printf("Quotient = %f\n", quotient);	
+		}else {
+			System.out.println("Division by zero is not possible ");
+		}
+		
 	}
 
 }
