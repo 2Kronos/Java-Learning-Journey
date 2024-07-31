@@ -11,7 +11,7 @@ public class CurrentAccount {
 		System.out.println("Please enter the withdrawl amount");
 		int withdrawAmount = withdraw.nextInt();
 		
-		bank.debit(withdrawAmount);8u
+		bank.debit(withdrawAmount);
 		
 	}
 
