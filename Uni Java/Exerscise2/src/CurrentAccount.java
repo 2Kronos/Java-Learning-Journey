@@ -6,12 +6,12 @@ public class CurrentAccount {
 		Scanner withdraw = new Scanner(System.in);
 		
 		AccountTest bank = new AccountTest();
-		bank.setBalance(100); // Set the initial balance
+//		bank.setBalance(100); // Set the initial balance
 		
 		System.out.println("Please enter the withdrawl amount");
 		int withdrawAmount = withdraw.nextInt();
 		
-		bank.debit(withdrawAmount);
+		bank.debit(withdrawAmount);8u
 		
 	}
 
