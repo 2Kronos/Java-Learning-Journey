@@ -5,6 +5,7 @@ public class StringCompare {
         String s3 = "Happy Birthday";
         String s4 = "happy birthday";
         String s5 = "hello";
+        String s6 = new String("hello");
         
 
         System.out.printf("s1 = %s\ns2 = %s\ns3 = %s\ns4 = %s\n\n", s1, s2, s3, s4);
@@ -16,7 +17,7 @@ public class StringCompare {
             System.out.println("s1 does not equal \"hello\"");
 
         // test for equality with ==
-        if (s1 == s5) // false; they are not the same object
+        if (s1 == s6) // false; they are not the same object
             System.out.println("s1 is the same object as \"hello\"");
         else
             System.out.println("s1 is not the same object as \"hello\"");

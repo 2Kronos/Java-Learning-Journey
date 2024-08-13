@@ -10,3 +10,11 @@ public class Main {
 	}
 
 }
+
+
+
+for (String string : strings) {
+	if (string.startsWith("st")) {
+			System.out.printf("\"%s\" starts with \"st\"\n", string);
+	}
+}
