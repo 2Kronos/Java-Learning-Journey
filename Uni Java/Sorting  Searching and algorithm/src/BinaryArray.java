@@ -2,8 +2,10 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class BinaryArray {
-    private int[] data; // array of values
-    private static final Random generator = new Random();
+	//instance variables 
+    private int[] data; // array to hold integer values
+    private static final Random generator = new Random(); //static random object used to 
+    //create randonNumbers
 
     // create array of given size and fill with random integers
     public BinaryArray(int size) {
@@ -13,7 +15,7 @@ public class BinaryArray {
         for (int i = 0; i < size; i++)
             data[i] = 10 + generator.nextInt(90);
 
-        Arrays.sort(data);
+        Arrays.sort(data);//sort array
     } // end BinaryArray constructor
 
     // perform a binary search on the data
@@ -30,8 +32,10 @@ public class BinaryArray {
             // middle element is too high
             else if (searchElement < data[middle])
                 high = middle - 1; // eliminate the higher half
+            
             else // middle element is too low
                 low = middle + 1; // eliminate the lower half
+            
 
             middle = (low + high + 1) / 2; // recalculate the middle
         } while ((low <= high) && (location == -1));

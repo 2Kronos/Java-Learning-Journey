@@ -15,7 +15,7 @@ public class BinarySearchTest {
         // get input from user
         System.out.print("Please enter an integer value (-1 to quit): ");
         searchInt = input.nextInt(); // read an int from user
-        System.out.println();
+      System.out.println();
 
         // repeatedly input an integer; -1 terminates the program
         while (searchInt != -1) {
