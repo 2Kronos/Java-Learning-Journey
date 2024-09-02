@@ -22,10 +22,10 @@ public class GradeBookTest {
 		GradeBook myGb2 = new GradeBook("MATH51 Intro to Maths","Tshinge");
 		
 		
-		System.out.printf("gradeBook1 course name is: %s\n and the instructor is %s\n", myGb1.getCourseName(), myGb1.getInstructorName());
+		System.out.printf("gradeBook1 course name is: %s and the instructor is %s\n", myGb1.getCourseName(), myGb1.getInstructorName());
 		myGb1.getCourseName();
 		
-		System.out.printf("gradeBook2 course name iS: %s\n and the instructor is %s", myGb2.getCourseName(), myGb2.getInstructorName());
+		System.out.printf("gradeBook2 course name iS: %s and the instructor is %s", myGb2.getCourseName(), myGb2.getInstructorName());
 		myGb2.getCourseName();
 		
 		

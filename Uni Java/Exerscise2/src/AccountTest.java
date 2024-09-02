@@ -17,11 +17,9 @@ public class AccountTest {
 			System.out.println("Debit amount exceeded account balnce");
 			}
 		else{
-			int newBalance = getBalance()- amount;
-			System.out.printf("Your current balance is %d" , newBalance);
+			 setBalance(getBalance()- amount);
+			System.out.printf("Your current balance is %d" , getBalance());
 			}
-		
-		
 	}
 	
 }

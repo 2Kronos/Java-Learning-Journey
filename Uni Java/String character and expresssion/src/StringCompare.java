@@ -42,7 +42,7 @@ public class StringCompare {
             System.out.println("First 5 characters of s3 and s4 do not match");
 
         // test regionMatches (ignore case)
-        if (s3.regionMatches(true, 0, s4, 0, 5))
+        if (s3.regionMatches(true, 6, s4, 6, 8))
             System.out.println("First 5 characters of s3 and s4 match with case ignored");
         else
             System.out.println("First 5 characters of s3 and s4 do not match");
