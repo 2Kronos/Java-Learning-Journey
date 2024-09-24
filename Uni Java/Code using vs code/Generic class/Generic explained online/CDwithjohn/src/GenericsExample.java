@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class GenericsExample {
  public static void main(String[] args) {
@@ -8,8 +7,7 @@ public class GenericsExample {
    Printer <Double> doublePrint = new Printer<>(33.5);
    doublePrint.print();
 
-   ArrayList<Cat> cats new ArrayList<>();
-   cats.add(new Cat());
+  
 
    printer.print();
  }
