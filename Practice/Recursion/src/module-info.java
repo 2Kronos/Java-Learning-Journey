@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Recursions {
+module Recursion {
 }
