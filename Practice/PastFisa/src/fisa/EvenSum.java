@@ -12,7 +12,8 @@ public class EvenSum {
 
 		// Repeatedly prompt the user until a valid integer is entered
 		boolean validInput = false;
-		//while its not = false i.e 
+		//Essentially, !validInput means "while validInput is not true.
+		//" In other words, the loop will continue executing as long as validInput is false.
 		while (!validInput) {
 			System.out.println("Enter the upper limit (positive or negative integer): ");
 			try {
@@ -75,4 +76,14 @@ public class EvenSum {
 // return sum;
 // }
 
-//remeber for recusive function you must try to reach a base case
+
+
+//If the user enters something that is not a valid integer
+//(e.g., a string or a floating-point number), 
+//the InputMismatchException is thrown.
+//In the catch block, the program prints an error message and 
+//calls input.next() to consume the 
+//invalid input so that the scanner is 
+//ready for the next attempt.
+//The value of validInput remains 
+//false, causing the loop to repeat and prompt the user again

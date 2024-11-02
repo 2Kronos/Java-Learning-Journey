@@ -9,17 +9,17 @@ public class RegexSubstitution {
 
         // Replace '*' with '^'
         firstString = firstString.replaceAll("\\*", "^");
-        System.out.printf("^ substituted for *: %s\n", firstString);
+        System.out.printf("\n^ substituted for *: %s\n", firstString);
 
         // Replace 'stars' with 'carets'
         firstString = firstString.replaceAll("stars", "carets");
-        System.out.printf("\"carets\" substituted for \"stars\": %s\n", firstString);
+        System.out.printf("\n \"carets\" substituted for \"stars\": %s\n", firstString);
 
         // Replace words with 'word'
         firstString = firstString.replaceAll("\\w+", "word");
-        System.out.printf("Every word replaced by \"word\": %s\n\n", firstString);
+        System.out.printf("\nEvery word replaced by \"word\": %s\n\n", firstString);
 
-        System.out.printf("Original String 2: %s\n", secondString);
+        System.out.printf("\nOriginal String 2: %s\n", secondString);
 
         // Replace first three digits with 'digit'
         for (int i = 0; i < 3; i++) {
