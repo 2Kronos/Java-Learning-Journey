@@ -3,21 +3,17 @@ public class Addition {
 
 	public static void main(String[] args) {
 		
-	      Scanner input = new Scanner(System.in);
-	        
-	        int number1; //First number to add
-	        int number2; //second number to add
-	        int sum;
-	        
-	        System.out.print("Enter first integer:"); //prompt message
-	        number1 = input.nextInt(); //read first number from user
-	        
-	        System.out.print("Enter second integer:"); //prompt message
-	        number2 = input.nextInt(); //read second number from user
-	        
-	        sum = number1 + number2;
-	        
-	        System.out.printf("Sum is %d\n", sum);
+		int p =1000;
+
+		float r = 0.5f;
+
+		float a = p*(1+r);
+
+		for(int i = 0; i<10; ++i){
+
+		  double sum = Math.pow(i, a);
+		     System.out.printf("\nYear %d = %.3f", i, sum);
+		}
 	}
 
 }
