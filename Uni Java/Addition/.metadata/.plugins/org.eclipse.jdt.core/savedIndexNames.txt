@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\n1cit\OneDrive - Cape Peninsula University of Technology\Documents\2KRONOS\JAVA\Java-Learning-Journey\Uni Java\Addition\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

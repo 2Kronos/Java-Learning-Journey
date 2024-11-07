@@ -1,0 +1,5 @@
+Array: [50, 18, 11, 2, 40, 43, 18, 32, 29, 16]
+Maximum element in array (non-recursive algorithm): 50
+Maximum element in array (recursive algorithm): 50
+-----------------------------------------------------
+BUILD SUCCESS

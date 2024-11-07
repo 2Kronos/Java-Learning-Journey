@@ -32,6 +32,8 @@ public class ArrayManipulation {
         System.out.println("Element Counts: " + elementCountMap);
 
 
-        //create a list of random integers
+        //write a program that will remove duplicates from an array and display the unique elements
+
+        
     }
 }

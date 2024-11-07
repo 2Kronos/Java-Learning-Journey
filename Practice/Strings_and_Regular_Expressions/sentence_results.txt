@@ -1,0 +1,9 @@
+Capitalized Words:
+Hello
+My
+Name
+Is
+Bob
+
+Total number of words: 5
+Number of words starting with a vowel: 1

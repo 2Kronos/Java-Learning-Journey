@@ -1,0 +1,4 @@
+Words starting with a vowel:
+
+Total number of words: 4
+Number of words starting with a vowel: 0

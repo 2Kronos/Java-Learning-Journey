@@ -1,10 +1,17 @@
 package practice;
 //2. Write a Java recursive method to calculate the sum of all numbers from 1 to n
+import java.util.Scanner;
 public class Sum {
  public static void main (String[]args) {
 	 
+;
+	 Scanner scanner = new Scanner(System.in);
+	 
+	 System.out.println("Give the max limit we shoudl add");
+	 int input = scanner.nextInt(); 
+	 
 	 int num = 5;
-	 int sum = total(num);
+	 int sum = total(input);
 	 System.out.printf("SUM = %d", sum);
  }
  
